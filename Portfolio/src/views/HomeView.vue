@@ -1,9 +1,15 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <HeroSection />
 </template>
+  
+  <script>
+  import HeroSection from '../components/HeroSection.vue'
+  
+  export default {
+    name: 'HomeView',
+    components: {
+      HeroSection,
+    },
+  }
+  </script>
+  

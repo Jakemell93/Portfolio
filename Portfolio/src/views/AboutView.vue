@@ -1,15 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I'm a web developer with a background in X, Y, Z...
+        <!-- Add your personal background info here -->
+      </p>
+    </section>
+  </template>
+  
+  <script>
+  export default {
+    name: 'AboutView',
   }
-}
-</style>
+  </script>
+  
